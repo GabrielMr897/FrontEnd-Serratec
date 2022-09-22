@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -12,3 +13,66 @@ html, body {
 	font-size: 1.6rem;
 }
 
+a{
+	text-decoration: none;
+}
+
+header {
+	background-color: #212121;
+}
+
+header nav {
+	display: flex;
+	padding: 2rem;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+header nav .linkMedia {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+header nav .linkMedia a:nth-of-type(2) {
+	margin-left: 1rem;
+}
+
+
+header nav .linkMedia a {
+	color: white;
+	
+}
+
+header nav .linkMedia a h3 {
+	font-weight: 400;
+}
+
+header nav .linkMedia a:hover {
+	color: grey;
+}
+
+header nav a {
+	color: grey;
+}
+
+header nav a:hover {
+	color:white;
+}
+
+main{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+}
+
+
+
+main section.section h2 {
+	font-weight: 600;
+}
