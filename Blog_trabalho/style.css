@@ -19,6 +19,8 @@ a{
 
 header {
 	background-color: #212121;
+	position: fixed;
+	width: 100%;
 }
 
 header nav {
@@ -62,7 +64,7 @@ header nav a:hover {
 	color:white;
 }
 
-main{
+main#home{
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -71,8 +73,57 @@ main{
 	justify-content: space-around;
 }
 
-
+main section:nth-of-type(1) {
+	margin-top: 6.9rem;
+}
 
 main section.section h2 {
 	font-weight: 600;
+	color: black;
+}
+
+
+
+
+.paginaEx h2 {
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+}
+
+
+
+.paginaEx h4 {
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+
+.paginaEx h5 {
+	font-weight: 400;
+	margin-bottom: 1.5rem;
+}
+
+.paginaEx p {
+	
+	margin: 0 auto;
+	margin-bottom: 2.2rem;
+}
+
+.paginaEx p:nth-of-type(1) {
+	margin-bottom: 5rem;
+}
+
+
+.paginaEx h2, h4, h5 {
+	text-align: center;
+}
+
+.paginaEx {
+	width: 60rem;
+	padding: 2rem;
+	margin: 0 auto;
+}
+
+ul li {
+	list-style: none;
+	text-align: center;
 }
